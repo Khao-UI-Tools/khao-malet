@@ -2,7 +2,8 @@
  * https://m3.material.io/foundations/layout/understanding-layout/spacing
  */
 
-:root {
+:root,
+:host {
   --khao-sys-size-regular-1: var(--khao-ref-base-size-regular);
   --khao-sys-size-regular-2: calc(var(--khao-ref-base-size-regular) * 2);
   --khao-sys-size-regular-3: calc(var(--khao-ref-base-size-regular) * 3);
