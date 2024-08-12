@@ -1,5 +1,5 @@
 /* Elevation
- * https://m3.material.io/styles/elevation/tokens
+ *   
  */
 
 :root {
@@ -7,12 +7,13 @@
   --khao-sys-elevation-level4-distance: 1004;
 
   /* Level 3 */
-  --khao-sys-elevation-level3-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px,
-    rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
   --khao-sys-elevation-level3-distance: 1003;
 
+  /* Level 3 */
+  --khao-sys-elevation-level3-distance: 1002;
+
   /* Level 1 */
-  --khao-sys-elevation-level1-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px,
-    rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+  --khao-sys-elevation-level1-shadow: 8px 8px 30px #cccccc,
+    -8px -8px 20px #f4f4f4;
   --khao-sys-elevation-level1-distance: 1001;
 }
