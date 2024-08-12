@@ -1,5 +1,5 @@
 @import url(ubuntu/ubuntu.css);
 
 :root {
-  --khao-ref-typeface-plain: Ubuntu;
+  --khao-ref-typeface-default: Ubuntu;
 }

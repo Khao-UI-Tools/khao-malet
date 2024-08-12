@@ -7,7 +7,7 @@
 
 :root {
   /* Default */
-  --khao-sys-typescale-default-font: var(--khao-ref-typeface-plain);
+  --khao-sys-typescale-default-font: var(--khao-ref-typeface-default);
 
   /* Title */
   --khao-sys-typescale-title-large-line-height: var(--khao-sys-size-regular-6);
@@ -18,6 +18,7 @@
   --khao-sys-typescale-title-medium-weight: 700;
 
   /* Body */
+  --khao-sys-typescale-body-font: var(--khao-ref-typeface-default);
   --khao-sys-typescale-body-large-line-height: var(--khao-sys-size-regular-6);
   --khao-sys-typescale-body-large-size: var(--khao-sys-size-typography-8);
   --khao-sys-typescale-body-large-weight: 400;
