@@ -13,7 +13,7 @@
 :root {
   /* Corporate */
   --khao-ref-palette-black: #000000;
-  --khao-ref-palette-bamboo: #ae9137;
+  --khao-ref-palette-bamboo: rgb(174, 145, 55); /* #ae9137 */
   --khao-ref-palette-bamboo-light: #f7f3e6;
   --khao-ref-palette-green: #3e5618;
   --khao-ref-palette-green-light: #9acd32;
