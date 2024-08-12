@@ -1,0 +1,9 @@
+/* Shape
+ * https://m3.material.io/styles/shape/shape-scale-tokens
+ */
+
+:root {
+  --khao-sys-shape-corner-full: 9999px;
+  --khao-sys-shape-corner-extra-large: 28px;
+  --khao-sys-shape-corner-large: 16px;
+}
