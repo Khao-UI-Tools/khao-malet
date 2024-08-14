@@ -1,7 +1,9 @@
-# Design system
+# Khao Malet design system
 
-Visually, we follow the current Design of [Der Reiskoch](https://www.der-reiskoch.de/)  
-Our design system is based on [Material 3](https://m3.material.io/).
+![Khao Malet](khao_mnalet_logo.jpg "Khao Malet")
+
+Visually, the Khao Malet system follows the current design of [Der Reiskoch](https://www.der-reiskoch.de/).  
+The design system is based on [Material 3](https://m3.material.io/).
 
 ## Design tokens
 
