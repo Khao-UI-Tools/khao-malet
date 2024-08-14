@@ -21,3 +21,7 @@ All tokens are prefixed with `--khao-` (short for JobRad store locator) to preve
   - prefixed with `--khao-<component-name>-`, e.g. `--khao-button-`
 
 Read more about [types of tokens](https://m3.material.io/foundations/design-tokens/how-to-read-tokens).
+
+## About the Name
+
+"Malet Khao" (เมล็ดข้าว) is Thai and means "grain(s) of rice". As this design system is the base of my component library [Khao UI](https://github.com/Der-Reiskoch/khao-ui) i used the thai name in reverse order.
