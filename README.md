@@ -1,6 +1,6 @@
 # Khao Malet design system
 
-![Khao Malet](logo.jpg "Khao Malet")
+![Khao Malet](lhttps://bilder.koch-reis.de/logo/khao-malet.jpg "Khao Malet")
 
 ## About the Name
 
