@@ -1,0 +1,23 @@
+{
+  "name": "@der-reiskoch/khao-malet",
+  "version": "0.0.1",
+  "description": "The 'Khao Malet' Design System",
+  "main": "src/index.css",
+  "files": [
+    "dist/**/*.*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Der-Reiskoch/khao-malet.git"
+  },
+  "keywords": [
+    "css",
+    "design-system"
+  ],
+  "author": "Der-Reiskoch <info@der-reiskoch.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Der-Reiskoch/khao-malet/issues"
+  },
+  "homepage": "https://github.com/Der-Reiskoch/khao-malet#readme"
+}
