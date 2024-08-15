@@ -1,11 +1,17 @@
 # Khao Malet design system
 
-![Khao Malet](khao_malet_logo.jpg "Khao Malet")
+![Khao Malet](logo.jpg "Khao Malet")
+
+## About the Name
+
+"Malet Khao" (เมล็ดข้าว) is Thai and means "grain(s) of rice". As this design system is the base of my component library [Khao UI](https://github.com/Der-Reiskoch/khao-ui) i used the thai name in reverse order.
+
+## System
 
 Visually, the Khao Malet system follows the current design of [Der Reiskoch](https://www.der-reiskoch.de/).  
 The design system is based on [Material 3](https://m3.material.io/).
 
-## Design tokens
+### Design tokens
 
 Token naming is based on [Material Web](https://material-web.dev/).
 All tokens are prefixed with `--khao-` (short for JobRad store locator) to prevent naming overlaps with host applications such as the marketing website.
@@ -21,7 +27,3 @@ All tokens are prefixed with `--khao-` (short for JobRad store locator) to preve
   - prefixed with `--khao-<component-name>-`, e.g. `--khao-button-`
 
 Read more about [types of tokens](https://m3.material.io/foundations/design-tokens/how-to-read-tokens).
-
-## About the Name
-
-"Malet Khao" (เมล็ดข้าว) is Thai and means "grain(s) of rice". As this design system is the base of my component library [Khao UI](https://github.com/Der-Reiskoch/khao-ui) i used the thai name in reverse order.
