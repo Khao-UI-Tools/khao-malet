@@ -14,7 +14,7 @@ The design system is based on [Material 3](https://m3.material.io/).
 ### Design tokens
 
 Token naming is based on [Material Web](https://material-web.dev/).
-All tokens are prefixed with `--khao-` (short for JobRad store locator) to prevent naming overlaps with host applications such as the marketing website.
+All tokens are prefixed with `--khao-` to prevent naming overlaps with host applications such as the marketing website.
 
 ### Types of tokens
 
