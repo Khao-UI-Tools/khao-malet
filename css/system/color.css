@@ -29,11 +29,11 @@
   --khao-sys-color-outline-variant: var(--khao-ref-palette-neutral80);
 
   /* Neutral (Greys) */
-  --khao-sys-color-neutral10: var(--khao-sys-palette-neutral10);
-  --khao-sys-color-neutral30: var(--khao-sys-palette-neutral30);
-  --khao-sys-color-neutral50: var(--khao-sys-palette-neutral50);
-  --khao-sys-color-neutral80: var(--khao-sys-palette-neutral80);
-  --khao-sys-color-neutral100: var(--khao-sys-palette-neutral100);
+  --khao-sys-color-neutral10: var(--khao-ref-palette-neutral10);
+  --khao-sys-color-neutral30: var(--khao-ref-palette-neutral30);
+  --khao-sys-color-neutral50: var(--khao-ref-palette-neutral50);
+  --khao-sys-color-neutral80: var(--khao-ref-palette-neutral80);
+  --khao-sys-color-neutral100: var(--khao-ref-palette-neutral100);
 
   /* Static */
   --khao-sys-static-color-green: var(--khao-ref-palette-green-light);
