@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [0.0.9]
 
+- added on-x color defitions for static colors
 - fixed bug in color definitons
 
 ## [0.0.8]

@@ -37,7 +37,14 @@
 
   /* Static */
   --khao-sys-static-color-green: var(--khao-ref-palette-green-light);
+  --khao-sys-static-color-on-green: var(--khao-ref-palette-black);
+
   --khao-sys-static-color-red: var(--khao-ref-palette-red);
+  --khao-sys-static-color-on-red: var(--khao-ref-palette-white);
+
   --khao-sys-static-color-white: var(--khao-ref-palette-white);
+  --khao-sys-static-color-on-white: var(--khao-ref-palette-black);
+
   --khao-sys-static-color-black: var(--khao-ref-palette-black);
+  --khao-sys-static-color-on-black: var(--khao-ref-palette-white);
 }
