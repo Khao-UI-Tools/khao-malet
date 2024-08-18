@@ -32,7 +32,7 @@
     var(--khao-sys-color-secondary),
     var(--khao-ref-palette-white) 60%
   );
-  --khao-sys-color-on-surface-variantd30: var(--khao-ref-palette-neutral30);
+  --khao-sys-color-on-surface-variantd30: var(--khao-ref-palette-black);
 
   /* Outline */
   --khao-sys-color-outline: var(--khao-ref-palette-neutral50);
