@@ -7,7 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [NEXT]
 
-- added `--khao-sys-color-surface-variant10`
+- calced `--khao-sys-color-surface` instead of hard coding it.
+- added `--khao-sys-color-surface-variantd30`
 
 ## [0.0.9]
 
