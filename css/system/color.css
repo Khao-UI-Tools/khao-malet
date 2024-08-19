@@ -22,7 +22,7 @@
   /* Surface */
   --khao-sys-color-surface: color-mix(
     in srgb,
-    var(--khao-ref-palette-color-bamboo),
+    var(--khao-sys-color-secondary),
     var(--khao-ref-palette-white) 90%
   );
   --khao-sys-color-on-surface: var(--khao-ref-palette-black);
