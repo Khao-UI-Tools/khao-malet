@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Der-Reiskoch/khao-malet.git"
+    "url": "git+https://github.com/Khao-UI-Tools/khao-malet.git"
   },
   "keywords": [
     "css",
@@ -16,5 +16,5 @@
   ],
   "author": "Der-Reiskoch <info@der-reiskoch.de>",
   "license": "ISC",
-  "homepage": "https://github.com/Der-Reiskoch/khao-malet#readme"
+  "homepage": "https://github.com/Khao-UI-Tools/khao-malett#readme"
 }
