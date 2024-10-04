@@ -18,6 +18,11 @@
   --khao-sys-size-regular-13: calc(var(--khao-ref-base-size-regular) * 13);
   --khao-sys-size-regular-14: calc(var(--khao-ref-base-size-regular) * 14);
   --khao-sys-size-regular-15: calc(var(--khao-ref-base-size-regular) * 15);
+  --khao-sys-size-regular-16: calc(var(--khao-ref-base-size-regular) * 16);
+  --khao-sys-size-regular-17: calc(var(--khao-ref-base-size-regular) * 17);
+  --khao-sys-size-regular-18: calc(var(--khao-ref-base-size-regular) * 18);
+  --khao-sys-size-regular-19: calc(var(--khao-ref-base-size-regular) * 19);
+  --khao-sys-size-regular-20: calc(var(--khao-ref-base-size-regular) * 20);
 
   --khao-sys-size-typography-1: var(--khao-ref-base-size-typography);
   --khao-sys-size-typography-2: calc(var(--khao-ref-base-size-typography) * 2);
