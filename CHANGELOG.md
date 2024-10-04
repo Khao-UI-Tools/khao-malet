@@ -9,7 +9,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - added sizes up to `--khao-sys-size-regular-20`
 
-
 ## [0.0.12]
 
 - increased color diff for :hover,:focus and :active state
