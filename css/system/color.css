@@ -27,6 +27,13 @@
   );
   --khao-sys-color-on-surface: var(--khao-ref-palette-black);
 
+  --khao-sys-color-surface-variantd10: color-mix(
+    in srgb,
+    var(--khao-sys-color-secondary),
+    var(--khao-ref-palette-white) 80%
+  );
+  --khao-sys-color-on-surface-variantd10: var(--khao-ref-palette-black);
+
   --khao-sys-color-surface-variantd30: color-mix(
     in srgb,
     var(--khao-sys-color-secondary),
