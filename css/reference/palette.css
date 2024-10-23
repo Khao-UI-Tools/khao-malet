@@ -4,13 +4,13 @@
 
 :root {
   /* Corporate */
-  --khao-ref-palette-bamboo: #ae9137;
+  --khao-ref-palette-bamboo: #88712B;
   --khao-ref-palette-green: #3e5618;
   --khao-ref-palette-green-light: #9acd32;
   --khao-ref-palette-orange: #ff9900;
 
   /* Additional */
-  --khao-ref-palette-red: #aa1d2d; /* $color-red */
+  --khao-ref-palette-red: #aa1d2d;
   --khao-ref-palette-white: #ffffff;
   --khao-ref-palette-black: #000000;
 
