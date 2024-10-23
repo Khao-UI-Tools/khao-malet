@@ -1,4 +1,4 @@
-# Khao Malet design system
+# Khao Malet Design System
 
 ![Khao Malet](https://bilder.koch-reis.de/logo/khao-malet.jpg "Khao Malet")
 
