@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.17]
+
+- added `--khao-ref-palette-sand` color
+- use `--khao-ref-palette-sand` for `khao-sys-color-surface`
+- adjusted calculation of `khao-sys-color-surface` variants
+- added `--khao-sys-color-surface-variantd50` color
+
 ## [0.0.16]
 
 - fixed hover state

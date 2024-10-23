@@ -1,6 +1,6 @@
 {
   "name": "@der-reiskoch/khao-malet",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "The 'Khao Malet' Design System",
   "main": "css/styles.css",
   "files": [
@@ -16,5 +16,20 @@
   ],
   "author": "Der-Reiskoch <info@der-reiskoch.de>",
   "license": "ISC",
-  "homepage": "https://github.com/Khao-UI-Tools/khao-malet#readme"
+  "homepage": "https://github.com/Khao-UI-Tools/khao-malet#readme",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.9.0",
+    "@storybook/addon-essentials": "^8.3.6",
+    "@storybook/addon-interactions": "^8.3.6",
+    "@storybook/addon-links": "^8.3.6",
+    "@storybook/blocks": "^8.3.6",
+    "@storybook/html": "^8.3.6",
+    "@storybook/html-vite": "^8.3.6",
+    "@storybook/test": "^8.3.6",
+    "storybook": "^8.3.6"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 7007",
+    "build-storybook": "storybook build"
+  }
 }
