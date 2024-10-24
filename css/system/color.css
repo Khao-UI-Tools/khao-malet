@@ -3,59 +3,67 @@
  */
 
 :root {
-  /* Primary */
+ 
   --khao-sys-color-primary: var(--khao-ref-palette-green);
   --khao-sys-color-on-primary: var(--khao-ref-palette-white);
 
-  /* Secondary */
+
   --khao-sys-color-secondary: var(--khao-ref-palette-bamboo);
   --khao-sys-color-on-secondary: var(--khao-ref-palette-white);
 
-  /* Tertiary */
+
   --khao-sys-color-tertiary: var(--khao-ref-palette-orange);
   --khao-sys-color-on-tertiary: var(--khao-ref-palette-black);
 
-  /* Container */
   --khao-sys-color-container: var(--khao-ref-palette-neutral10);
-  --khao-sys-color-on-container: var(--khao-ref-palette-neutral100);
+  --khao-sys-color-on-container: var(--khao-ref-palette-white);
 
-  /* Surface */
+  --khao-sys-color-accent: var(--khao-ref-pallete-gold);
+  --khao-sys-color-on-accent: var(--khao-ref-palette-black);
+
+  --khao-sys-color-outline: var(--khao-ref-pallete-gold);
+
   --khao-sys-color-surface: var(--khao-ref-palette-sand);
   --khao-sys-color-on-surface: var(--khao-ref-palette-black);
+
 
   --khao-sys-color-surface-variantd10: color-mix(
     in srgb,
     var(--khao-sys-color-surface),
-    var(--khao-sys-color-secondary) 15%
+    var(--khao-sys-color-outline) 15%
   );
   --khao-sys-color-on-surface-variantd10: var(--khao-ref-palette-black);
 
   --khao-sys-color-surface-variantd30: color-mix(
     in srgb,
     var(--khao-sys-color-surface),
-    var(--khao-sys-color-secondary) 30%
+    var(--khao-sys-color-outline) 30%
   );
   --khao-sys-color-on-surface-variantd30: var(--khao-ref-palette-black);
 
   --khao-sys-color-surface-variantd50: color-mix(
     in srgb,
     var(--khao-sys-color-surface),
-    var(--khao-sys-color-secondary) 45%
+    var(--khao-sys-color-outline) 45%
   );
   --khao-sys-color-on-surface-variantd50: var(--khao-ref-palette-black);
 
-  /* Outline */
-  --khao-sys-color-outline: var(--khao-ref-palette-neutral50);
-  --khao-sys-color-outline-variant: var(--khao-ref-palette-neutral80);
 
-  /* Neutral (Greys) */
+  --khao-sys-color-surface-variantd70: color-mix(
+    in srgb,
+    var(--khao-sys-color-surface),
+    var(--khao-sys-color-outline) 65%
+  );
+  --khao-sys-color-on-surface-variantd70: var(--khao-ref-palette-black);
+
+
   --khao-sys-color-neutral10: var(--khao-ref-palette-neutral10);
   --khao-sys-color-neutral30: var(--khao-ref-palette-neutral30);
   --khao-sys-color-neutral50: var(--khao-ref-palette-neutral50);
   --khao-sys-color-neutral80: var(--khao-ref-palette-neutral80);
-  --khao-sys-color-neutral100: var(--khao-ref-palette-neutral100);
+  --khao-sys-color-neutral90: var(--khao-ref-palette-neutral90);
 
-  /* Static */
+ 
   --khao-sys-static-color-green: var(--khao-ref-palette-green-light);
   --khao-sys-static-color-on-green: var(--khao-ref-palette-black);
 
