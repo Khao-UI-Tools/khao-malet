@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.19]
+
+- added `--khao-sys-color-surface-variantd90`
+
 ## [0.0.18]
 
 - replaced `--khao-sys-color-neutral100` by `--khao-sys-color-neutral90``

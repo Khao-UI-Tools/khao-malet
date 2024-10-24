@@ -57,6 +57,14 @@
   --khao-sys-color-on-surface-variantd70: var(--khao-ref-palette-black);
 
 
+  --khao-sys-color-surface-variantd90: color-mix(
+    in srgb,
+    var(--khao-sys-color-surface),
+    var(--khao-sys-color-outline) 85%
+  );
+  --khao-sys-color-on-surface-variantd90: var(--khao-ref-palette-black);
+
+
   --khao-sys-color-neutral10: var(--khao-ref-palette-neutral10);
   --khao-sys-color-neutral30: var(--khao-ref-palette-neutral30);
   --khao-sys-color-neutral50: var(--khao-ref-palette-neutral50);
