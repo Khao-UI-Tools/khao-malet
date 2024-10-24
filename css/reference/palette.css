@@ -9,6 +9,7 @@
   --khao-ref-palette-green: #3e5618;
   --khao-ref-palette-green-light: #9acd32;
   --khao-ref-palette-orange: #ff9900;
+  --khao-ref-pallete-gold: #ceb464;
 
   /* Additional */
   --khao-ref-palette-red: #aa1d2d;
@@ -32,5 +33,9 @@
     var(--khao-ref-palette-black),
     var(--khao-ref-palette-white) 80%
   );
-  --khao-ref-palette-neutral100: var(--khao-ref-palette-white);
+  --khao-ref-palette-neutral90: color-mix(
+    in srgb,
+    var(--khao-ref-palette-black),
+    var(--khao-ref-palette-white) 90%
+  );
 }
