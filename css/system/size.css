@@ -36,10 +36,4 @@
   --khao-sys-size-typography-10: calc(
     var(--khao-ref-base-size-typography) * 10
   );
-  --khao-sys-size-typography-11: calc(
-    var(--khao-ref-base-size-typography) * 11
-  );
-  --khao-sys-size-typography-12: calc(
-    var(--khao-ref-base-size-typography) * 12
-  );
 }

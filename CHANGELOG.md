@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.0]
+
+- changed the `--khao-ref-base-size-typography` to 4px. So `--khao-sys-size-typography-4` equals `1rem` in default browser settings
+- added `--khao-sys-typescale-title-font`
+- adjusted `--khao-sys-size-typography-1` to `--khao-sys-size-typography-10`
+- GitHub Page will now serve the Storybook for `khao-malet`
+- Served Path for `index.css` has changed to `/css/index.css`
+
 ## [0.0.19]
 
 - added `--khao-sys-color-surface-variantd90`

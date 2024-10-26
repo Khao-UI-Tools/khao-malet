@@ -1,86 +1,112 @@
 import { Meta } from "@storybook/blocks";
 import { version } from "../package.json";
 
-<Meta title="Font Sizes" />
+<Meta title="Fonts & Font Sizes" />
 
-# Font Sizes
+# Fonts & Font Sizes
 
 ## (@der-reiskoch/khao-malet v{version})
 
+### Fonts & Semantics
+
 <div className="sb-container">
   <div className='container'>
-    <div className="font-item font-1">
-      <p>
-        --khao-sys-size-typography-1
-      </p>
+
+    <h4>--khao-sys-typescale-title-font</h4>
+
+    <div className="font-family-title-large sb-unstyled">
+      This is a large Title or Headline
     </div>
 
-    <div className="font-item font-2">
-      <p>
-        --khao-sys-size-typography-2
-      </p>
+    <div className="font-family-title-medium sb-unstyled">
+      This is a medium Title or Headline
     </div>
 
-     <div className="font-item font-3">
-      <p>
-        --khao-sys-size-typography-3
-      </p>
+    <div className="font-family-title-small sb-unstyled">
+      This is a small Title or Headline
     </div>
 
-    <div className="font-item font-4">
-      <p>
-       --khao-sys-size-typography-4
-      </p>
-    </div>
-
-     <div className="font-item font-5">
-      <p>
-        --khao-sys-size-typography-5
-      </p>
-    </div>
-
-     <div className="font-item font-6">
-      <p>
-        --khao-sys-size-typography-6
-      </p>
-    </div>
-
-     <div className="font-item font-7">
-      <p>
-        --khao-sys-size-typography-7
-      </p>
+    <div className="font-family-title-tiny sb-unstyled">
+      This is a tiny Title or Headline
     </div>
 
 
-     <div className="font-item font-8">
-      <p>
-        --khao-sys-size-typography-8
-      </p>
+    <h4>--khao-sys-typescale-body-font</h4>
+
+    <div className="font-family-body sb-unstyled">
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+      abore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+      ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+      consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+      sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+      sanctus est Lorem ipsum dolor sit amet.
     </div>
 
+  </div>
+ </div>
 
-     <div className="font-item font-9">
-      <p>
-        --khao-sys-size-typography-9
-      </p>
-    </div>
+### All Font Sizes
 
-     <div className="font-item font-10">
-      <p>
+<h4>--khao-sys-typescale-body-font</h4>
+
+<div className="sb-container">
+  <div className='container'>
+
+
+     <div className="font-item font-10 sb-unstyled">
         --khao-sys-size-typography-10
-      </p>
     </div>
 
-     <div className="font-item font-11">
-      <p>
-        --khao-sys-size-typography-11
-      </p>
+    <div className="font-item font-9 sb-unstyled">
+      <div>
+        --khao-sys-size-typography-9
+      </div>
     </div>
 
-     <div className="font-item font-12">
-      <p>
-        --khao-sys-size-typography-12
-      </p>
+     <div className="font-item font-8 sb-unstyled">
+      <div>
+        --khao-sys-size-typography-8
+      </div>
+    </div>
+
+     <div className="font-item font-7 sb-unstyled">
+      <div>
+        --khao-sys-size-typography-7
+      </div>
+    </div>
+
+     <div className="font-item font-6 sb-unstyled">
+      <div>
+        --khao-sys-size-typography-6
+      </div>
+    </div>
+
+     <div className="font-item font-5 sb-unstyled">
+        --khao-sys-size-typography-5
+    </div>
+
+     <div className="font-item font-4 sb-unstyled">
+      <div>
+       --khao-sys-size-typography-4
+      </div>
+    </div>
+
+     <div className="font-item font-3 sb-unstyled">
+      <div>
+        --khao-sys-size-typography-3
+      </div>
+    </div>
+
+    <div className="font-item font-2 sb-unstyled">
+      <div>
+        --khao-sys-size-typography-2
+      </div>
+    </div>
+
+    <div className="font-item font-1 sb-unstyled">
+      <div>
+        --khao-sys-size-typography-1
+      </div>
     </div>
 
   </div>
@@ -103,14 +129,50 @@ import { version } from "../package.json";
     
   }
 
+  .font-family-body {
+    font-family: var(--khao-sys-typescale-body-font);
+    line-height: var(--khao-sys-typescale-body-line-height);
+    width: 50%;
+  }
+
+  .font-family-title-large {
+    font-family: var(--khao-sys-typescale-title-font);
+    font-size: var(--khao-sys-typescale-title-large-size);
+    font-weight: var(--khao-sys-typescale-title-large-weight);
+    line-heigh: var(--khao-sys-typescale-title-large-line-height);
+  }
+
+  .font-family-title-medium {
+    font-family: var(--khao-sys-typescale-title-font);
+    font-size: var(--khao-sys-typescale-title-medium-size);
+    font-weight: var(--khao-sys-typescale-title-medium-weight);
+    line-heigh: var(--khao-sys-typescale-title-medium-line-height);
+  }
+
+
+  .font-family-title-small {
+    font-family: var(--khao-sys-typescale-title-font);
+    font-size: var(--khao-sys-typescale-title-small-size);
+    font-weight: var(--khao-sys-typescale-title-small-weight);
+    line-heigh: var(--khao-sys-typescale-title-small-line-height);
+  }
+
+  .font-family-title-tiny {
+    font-family: var(--khao-sys-typescale-title-font);
+    font-size: var(--khao-sys-typescale-title-tiny-size);
+    font-weight: var(--khao-sys-typescale-title-tiny-weight);
+    line-heigh: var(--khao-sys-typescale-title-tiny-line-height);
+  }
+
   .font-item {
+    align-items: center;
     display:flex;
     flex-direction: column;
+    font-family: var(--khao-sys-typescale-default-font);
     justify-content: center;
-    align-items: center;
-    width: 400px;
+    width: 100%;
 
-    p {
+    div {
       wrap: no-wrap;
     }
 
@@ -173,18 +235,7 @@ import { version } from "../package.json";
   .font-10 {
       p {
         font-size: var(--khao-sys-size-typography-10);
-      }
-  }
-
-  .font-11 {
-      p {
-        font-size: var(--khao-sys-size-typography-11);
-      }
-  }
-
-  .font-12 {
-      p {
-        font-size: var(--khao-sys-size-typography-12);
+        
       }
   }
 

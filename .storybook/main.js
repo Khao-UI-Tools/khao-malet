@@ -4,6 +4,7 @@ const config = {
     "../stories/**/*.mdx",
     "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
   ],
+  staticDirs: ["../css/"],
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
