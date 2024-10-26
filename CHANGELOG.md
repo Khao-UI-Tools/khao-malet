@@ -11,7 +11,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - added `--khao-sys-typescale-title-font`
 - adjusted `--khao-sys-size-typography-1` to `--khao-sys-size-typography-10`
 - GitHub Page will now serve the Storybook for `khao-malet`
-- Served Path for `index.css` has changed to `/css/index.css`
 
 ## [0.0.19]
 
