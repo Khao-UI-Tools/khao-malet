@@ -1,36 +1,45 @@
-name: Deploy css content to Pages
+name: Deploy storybook content to GH Pages
 
 on:
   push:
     branches: ["master"]
 
-  workflow_dispatch:
-
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Upload artifact
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: install
+        run: npm ci
+      - name: install missing rollup for linux
+        run: npm install @rollup/rollup-linux-x64-gnu
+      - name: build
+        run: npm run build:storybook
+
+      - name: Upload Storybook
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './css/'
+          path: "./storybook-static"
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
