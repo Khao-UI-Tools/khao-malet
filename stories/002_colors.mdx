@@ -7,7 +7,7 @@ import { version } from "../package.json";
 
 ## (@der-reiskoch/khao-malet v{version})
 
-The color palette applies the [Material Design Color System](https://m3.material.io/styles/color/system/how-the-system-works).
+The color palette applies the [Material Design Color System](https://m3.material.io/styles/color/system/how-the-system-works) in some parts, but here the surface color is derived from the secondary color.
 
 ## Dynamic Main Colors
 
@@ -31,9 +31,21 @@ The color palette applies the [Material Design Color System](https://m3.material
       </p>
     </div>
 
-    <div className="color-item color-container">
+    <div className="color-item color-primary-container">
       <p>
-        --khao-sys-color-container
+        --khao-sys-color-primary-container
+      </p>
+    </div>
+
+     <div className="color-item color-secondary-container">
+      <p>
+        --khao-sys-color-secondary-container
+      </p>
+    </div>
+
+    <div className="color-item color-tertiary-container">
+      <p>
+        --khao-sys-color-tertiary-container
       </p>
     </div>
 
@@ -52,28 +64,28 @@ The color palette applies the [Material Design Color System](https://m3.material
   </div>
  </div>
 
-## Dynamic Surface Variants
+## Dynamic Surface Container
 
 <div className="sb-container">
   <div className="container">
-    <div className="color-item color-surface-variantd10">
-      <p>--khao-sys-color-surface-variantd10</p>
+    <div className="color-item color-surface-container-lowest">
+      <p>--khao-sys-color-surface-container-lowest</p>
     </div>
 
-    <div className="color-item color-surface-variantd30">
-      <p>--khao-sys-color-surface-variantd30</p>
+    <div className="color-item color-surface-container-low">
+      <p>--khao-sys-color-surface-container-low</p>
     </div>
 
-     <div className="color-item color-surface-variantd50">
-      <p>--khao-sys-color-surface-variantd50</p>
+     <div className="color-item color-surface-container">
+      <p>--khao-sys-color-surface-container</p>
     </div>
 
-     <div className="color-item color-surface-variantd70">
-      <p>--khao-sys-color-surface-variantd70</p>
+     <div className="color-item color-surface-container-high">
+      <p>--khao-sys-color-surface-container-high</p>
     </div>
 
-     <div className="color-item color-surface-variantd90">
-      <p>--khao-sys-color-surface-variantd90</p>
+     <div className="color-item color-surface-container-highest">
+      <p>--khao-sys-color-surface-container-highest</p>
     </div>
 
   </div>
@@ -120,15 +132,14 @@ The color palette applies the [Material Design Color System](https://m3.material
 
 <div className="sb-container">
   <div className='container'>
-    <div className="color-item color-green">
-      <p>
-        --khao-sys-static-color-green
-      </p>
+
+    <div className="color-item color-success">
+      <p>--khao-sys-static-color-success</p>
     </div>
 
-    <div className="color-item color-red">
+    <div className="color-item color-error">
       <p>
-        --khao-sys-static-color-red
+        --khao-sys-static-color-error
       </p>
     </div>
 
@@ -137,6 +148,15 @@ The color palette applies the [Material Design Color System](https://m3.material
         --khao-sys-static-color-white
       </p>
     </div>
+
+    <div className="color-item color-success-container">
+      <p>--khao-sys-static-color-success-container</p>
+    </div>
+
+     <div className="color-item color-error-container">
+      <p>--khao-sys-static-color-error-container</p>
+    </div>
+
 
      <div className="color-item color-black">
       <p>
@@ -171,7 +191,7 @@ The color palette applies the [Material Design Color System](https://m3.material
     justify-content: center;
     align-items: center;
     font-weight: 800;
-    width: 250px;
+    width: 300px;
     height: 80px;
     border-radius: var(--khao-sys-shape-corner-small);
   }
@@ -184,11 +204,27 @@ The color palette applies the [Material Design Color System](https://m3.material
       }
   }
 
+   .color-primary-container {
+      background-color: var(--khao-sys-color-primary-container);
+
+      p {
+        color: var(--khao-sys-color-on-primary-container) !important;
+      }
+  }
+
   .color-secondary {
       background-color: var(--khao-sys-color-secondary);
 
       p {
         color: var(--khao-sys-color-on-secondary) !important;
+      }
+  }
+
+  .color-secondary-container {
+      background-color: var(--khao-sys-color-secondary-container);
+
+      p {
+        color: var(--khao-sys-color-on-secondary-container) !important;
       }
   }
 
@@ -200,11 +236,12 @@ The color palette applies the [Material Design Color System](https://m3.material
       }
   }
 
-  .color-container {
-      background-color: var(--khao-sys-color-container);
+
+  .color-tertiary-container {
+      background-color: var(--khao-sys-color-tertiary-container);
 
       p {
-        color: var(--khao-sys-color-on-container) !important;
+        color: var(--khao-sys-color-on-tertiary-container) !important;
       }
   }
 
@@ -216,43 +253,43 @@ The color palette applies the [Material Design Color System](https://m3.material
       }
   }
 
-  .color-surface-variantd10 {
-      background-color: var(--khao-sys-color-surface-variantd10);
+  .color-surface-container-lowest {
+      background-color: var(--khao-sys-color-surface-container-lowest);
 
       p {
-        color: var(--khao-sys-color-on-surface-variantd10) !important;
+        color: var(--khao-sys-color-on-surface-container-lowest) !important;
       }
   }
 
-  .color-surface-variantd30 {
-      background-color: var(--khao-sys-color-surface-variantd30);
+  .color-surface-container-low {
+      background-color: var(--khao-sys-color-surface-container-low);
 
       p {
-        color: var(--khao-sys-color-on-surface-variantd30) !important;
+        color: var(--khao-sys-color-on-surface-container-low) !important;
       }
   }
 
-  .color-surface-variantd50 {
-      background-color: var(--khao-sys-color-surface-variantd50);
+  .color-surface-container {
+      background-color: var(--khao-sys-color-surface-container);
 
       p {
-        color: var(--khao-sys-color-on-surface-variantd50) !important;
+        color: var(--khao-sys-color-on-surface-container) !important;
       }
   }
 
-  .color-surface-variantd70 {
-      background-color: var(--khao-sys-color-surface-variantd70);
+  .color-surface-container-high {
+      background-color: var(--khao-sys-color-surface-container-high);
 
       p {
-        color: var(--khao-sys-color-on-surface-variantd70) !important;
+        color: var(--khao-sys-color-on-surface-container-high) !important;
       }
   }
 
-  .color-surface-variantd90 {
-      background-color: var(--khao-sys-color-surface-variantd90);
+  .color-surface-container-highest {
+      background-color: var(--khao-sys-color-surface-container-highest);
 
       p {
-        color: var(--khao-sys-color-on-surface-variantd90) !important;
+        color: var(--khao-sys-color-on-surface-container-highest) !important;
       }
   }
 
@@ -284,7 +321,7 @@ The color palette applies the [Material Design Color System](https://m3.material
       background-color: var(--khao-sys-color-neutral50);
 
       p {
-        color: var(--khao-sys-static-color-black) !important;
+        color: var(--khao-sys-static-color-white) !important;
       }
   }
 
@@ -312,11 +349,35 @@ The color palette applies the [Material Design Color System](https://m3.material
       }
   }
 
-  .color-red {
-      background-color: var(--khao-sys-static-color-red);
+  .color-success {
+      background-color: var(--khao-sys-static-color-success);
      
       p {
-        color: var(--khao-sys-static-color-on-red) !important;
+        color: var(--khao-sys-static-color-on-success) !important;
+      }
+  }
+
+  .color-success-container {
+      background-color: var(--khao-sys-static-color-success-container);
+     
+      p {
+        color: var(--khao-sys-static-color-on-success-container) !important;
+      }
+  }
+
+  .color-error {
+      background-color: var(--khao-sys-static-color-error);
+     
+      p {
+        color: var(--khao-sys-static-color-on-error) !important;
+      }
+  }
+
+   .color-error-container {
+      background-color: var(--khao-sys-static-color-error-container);
+     
+      p {
+        color: var(--khao-sys-static-color-on-error-container) !important;
       }
   }
 
