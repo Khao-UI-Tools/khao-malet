@@ -43,21 +43,21 @@
   --khao-sys-color-surface: color-mix(
     in srgb,
     var(--khao-sys-color-secondary-container),
-    var(--khao-ref-palette-white) 40%
+    var(--khao-ref-palette-white) 30%
   );
   --khao-sys-color-on-surface: var(--khao-ref-palette-black);
 
   --khao-sys-color-surface-container: color-mix(
     in srgb,
     var(--khao-sys-color-surface),
-    var(--khao-ref-palette-white) 10%
+    var(--khao-ref-palette-white) 40%
   );
   --khao-sys-color-on-surface-container: var(--khao-ref-palette-black);
 
   --khao-sys-color-surface-container-low: color-mix(
     in srgb,
     var(--khao-sys-color-surface-container),
-    var(--khao-ref-palette-white) 30%
+    var(--khao-ref-palette-white) 20%
   );
   --khao-sys-color-on-surface-container-low: var(--khao-ref-palette-black);
 
@@ -71,7 +71,7 @@
   --khao-sys-color-surface-container-high: color-mix(
     in srgb,
     var(--khao-sys-color-surface-container),
-    var(--khao-sys-color-outline) 30%
+    var(--khao-sys-color-outline) 40%
   );
   --khao-sys-color-on-surface-container-high: var(--khao-ref-palette-black);
 
