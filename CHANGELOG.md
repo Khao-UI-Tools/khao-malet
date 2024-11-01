@@ -8,10 +8,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [2.0.0]
 
 - changed Corporate colors
-- omitted color gold
-- omitted `--khao-sys-color-accent`
-- omitted `--khao-sys-color-container` (use `--khao-sys-color-neutral10` instead)
-- changed `--khao-sys-color-surface` to `#ded1a2`
+- removed color gold
+- removed color sand
+- removed `--khao-sys-color-accent`
+- removed `--khao-sys-color-container` (use `--khao-sys-color-neutral10` instead)
+- changed `--khao-sys-color-surface` it is now calculated from the secondary color
 - removed `--khao-sys-color-surface-variantd50` (use `--khao-sys-color-surface-container` instead)
 - removed `--khao-sys-color-surface-variantd30` (use `--khao-sys-color-surface-container-low` instead)
 - removed `--khao-sys-color-surface-variantd10` (use `--khao-sys-color-surface-container-lowest` instead)
@@ -19,6 +20,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - removed `--khao-sys-color-surface-variantd90` (use `--khao-sys-color-surface-container-highest` instead)
 - removed `--khao-sys-static-color-red` (use `--khao-sys-color-surface-container-highest` instead)
 - remoced `--khao-sys-static-color-green` (use `--khao-sys-color-primary` instead)
+- added `-container` colors for primary, secondary and tertiary
+- added `--khao-sys-static-color-success`
+- added `--khao-sys-static-color-success-container` and `--khao-sys-static-color-error-container`
 
 ## [1.0.1]
 
