@@ -5,9 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.1]
+
+- adjusted `surface-container` colors
+- adjusted `--khao-sys-elevation-level1-shadow`
+
 ## [2.0.0]
 
-- changed Corporate colors
+- changed Brand colors
 - removed color gold
 - removed color sand
 - removed `--khao-sys-color-accent`
@@ -18,7 +23,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - removed `--khao-sys-color-surface-variantd10` (use `--khao-sys-color-surface-container-lowest` instead)
 - removed `--khao-sys-color-surface-variantd70` (use `--khao-sys-color-surface-container-high` instead)
 - removed `--khao-sys-color-surface-variantd90` (use `--khao-sys-color-surface-container-highest` instead)
-- removed `--khao-sys-static-color-red` (use `--khao-sys-color-surface-container-highest` instead)
+- removed `--khao-sys-static-color-red` (use `--khao-sys-static-color-error` instead)
 - remoced `--khao-sys-static-color-green` (use `--khao-sys-color-primary` instead)
 - added `-container` colors for primary, secondary and tertiary
 - added `--khao-sys-static-color-success`
