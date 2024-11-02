@@ -1,5 +1,5 @@
 :root {
-  /* Level 4: Dialog over search bar */
+  /* Level 4 */
   --khao-sys-elevation-level4-distance: 1004;
 
   /* Level 3 */
@@ -9,6 +9,7 @@
   --khao-sys-elevation-level3-distance: 1002;
 
   /* Level 1 */
-  --khao-sys-elevation-level1-shadow: 4px 4px 8px var(--khao-ref-palette-neutral50);
+  --khao-sys-elevation-level1-shadow:  8px 8px 16px #e8e4d8,
+             -8px -8px 16px #fffff4;
   --khao-sys-elevation-level1-distance: 1001;
 }

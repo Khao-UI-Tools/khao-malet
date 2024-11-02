@@ -3,13 +3,16 @@
  */
 
 :root {
-  --khao-sys-color-primary: var(--khao-ref-palette-green);
+  --khao-sys-color-logo: var(--khao-ref-palette-rice-paddy);
+  --khao-sys-color-on-logo: var(--khao-ref-palette-white);
+
+  --khao-sys-color-primary: var(--khao-ref-palette-jungle);
   --khao-sys-color-on-primary: var(--khao-ref-palette-black);
 
   --khao-sys-color-primary-container: color-mix(
     in srgb,
     var(--khao-sys-color-primary),
-    var(--khao-ref-palette-white) 40%
+    var(--khao-ref-palette-white) 30%
   );
   --khao-sys-color-on-primary-container: var(--khao-ref-palette-black);
 
@@ -23,7 +26,7 @@
   );
   --khao-sys-color-on-secondary-container: var(--khao-ref-palette-black);
 
-  --khao-sys-color-tertiary: var(--khao-ref-palette-orange);
+  --khao-sys-color-tertiary: var(--khao-ref-palette-flower);
   --khao-sys-color-on-tertiary: var(--khao-ref-palette-black);
 
   --khao-sys-color-tertiary-container: color-mix(
@@ -40,17 +43,13 @@
   );
   --khao-sys-color-on-outline: var(--khao-ref-palette-black);
 
-  --khao-sys-color-surface: color-mix(
-    in srgb,
-    var(--khao-sys-color-secondary-container),
-    var(--khao-ref-palette-white) 30%
-  );
+  --khao-sys-color-surface: var(--khao-ref-palette-sand);
   --khao-sys-color-on-surface: var(--khao-ref-palette-black);
 
   --khao-sys-color-surface-container: color-mix(
     in srgb,
     var(--khao-sys-color-surface),
-    var(--khao-ref-palette-white) 40%
+    var(--khao-sys-color-secondary-container) 70%
   );
   --khao-sys-color-on-surface-container: var(--khao-ref-palette-black);
 
@@ -64,7 +63,7 @@
   --khao-sys-color-surface-container-lowest: color-mix(
     in srgb,
     var(--khao-sys-color-surface-container),
-    var(--khao-ref-palette-white) 50%
+    var(--khao-ref-palette-white) 25%
   );
   --khao-sys-color-on-surface-container-lowest: var(--khao-ref-palette-black);
 
