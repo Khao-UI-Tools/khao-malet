@@ -56,14 +56,14 @@
   --khao-sys-color-surface-container-low: color-mix(
     in srgb,
     var(--khao-sys-color-surface-container),
-    var(--khao-ref-palette-white) 20%
+    var(--khao-ref-palette-white) 40%
   );
   --khao-sys-color-on-surface-container-low: var(--khao-ref-palette-black);
 
   --khao-sys-color-surface-container-lowest: color-mix(
     in srgb,
     var(--khao-sys-color-surface-container),
-    var(--khao-ref-palette-white) 25%
+    var(--khao-ref-palette-white) 70%
   );
   --khao-sys-color-on-surface-container-lowest: var(--khao-ref-palette-black);
 
