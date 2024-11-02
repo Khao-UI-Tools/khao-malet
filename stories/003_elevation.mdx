@@ -1,30 +1,21 @@
 import { Meta } from "@storybook/blocks";
 import { version } from "../package.json";
 
-<Meta title="Color Palette" />
+<Meta title="Elevation" />
 
-# Color Palette
+# Elevation
 
 ## (@der-reiskoch/khao-malet v{version})
 
-The color palette applies the [Material Design Color System](https://m3.material.io/styles/color/system/how-the-system-works) in most parts, but we use five base colors.
-
-## Logo Color
-
-<div className="sb-container">
-  <div className="container">
-    <div className="color-item color-logo">
-      <p>--khao-sys-color-logo</p>
-    </div>
-  </div>
-</div>
+The elevation applies the [Material Elevation System](https://m3.material.io/styles/elevation/overview). Right now we only use one level of elevation.
+Here you can see how `--khao-sys-elevation-level1-shadow` looks like with different colors.
 
 ## Dynamic Brand Colors
 
 <div className="sb-container">
   <div className='container'>
     <div className="color-item color-primary">
-      <p>
+      <p class="primary">
         --khao-sys-color-primary
       </p>
     </div>
@@ -42,7 +33,7 @@ The color palette applies the [Material Design Color System](https://m3.material
     </div>
 
     <div className="color-item color-primary-container">
-      <p>
+      <p class="container">
         --khao-sys-color-primary-container
       </p>
     </div>
@@ -59,39 +50,21 @@ The color palette applies the [Material Design Color System](https://m3.material
       </p>
     </div>
 
-
-      </div>
-
+  </div>
  </div>
 
-## Surface and Outline
-
+## Dynamic Surface
 
 <div className="sb-container">
-    <div className='container'>
+  <div className="container">
 
-
-
-
-    <div className="color-item color-surface">
+     <div className="color-item color-surface">
       <p>
         --khao-sys-color-surface
       </p>
     </div>
 
-    <div className="color-item color-outline">
-      <p>
-        --khao-sys-color-outline
-      </p>
-    </div>
 
-  </div>
- </div>
-
-## Dynamic Surface Container
-
-<div className="sb-container">
-  <div className="container">
     <div className="color-item color-surface-container-lowest">
       <p>--khao-sys-color-surface-container-lowest</p>
     </div>
@@ -221,15 +194,7 @@ The color palette applies the [Material Design Color System](https://m3.material
     width: 300px;
     height: 80px;
     border-radius: var(--khao-sys-shape-corner-small);
-  }
-
-  .color-logo {
-      background-color: var(--khao-sys-color-logo);
-
-      p {
-        color: var(--khao-sys-color-on-logo) !important;
-        font-weight: bold;
-      }
+    box-shadow: var(--khao-sys-elevation-level1-shadow);
   }
 
   .color-primary {
@@ -283,7 +248,6 @@ The color palette applies the [Material Design Color System](https://m3.material
 
   .color-surface {
       background-color: var(--khao-sys-color-surface);
-      border: 1px solid black;
   
       p {
         color: var(--khao-sys-color-on-surface) !important;
@@ -327,14 +291,6 @@ The color palette applies the [Material Design Color System](https://m3.material
 
       p {
         color: var(--khao-sys-color-on-surface-container-highest) !important;
-      }
-  }
-
-  .color-outline {
-      background-color: var(--khao-sys-color-outline);
-
-      p {
-        color: var(--khao-sys-color-on-outline) !important;
       }
   }
 
