@@ -9,16 +9,6 @@ import { version } from "../package.json";
 
 The color palette applies the [Material Design Color System](https://m3.material.io/styles/color/system/how-the-system-works) in most parts, but we use five base colors.
 
-## Logo Color
-
-<div className="sb-container">
-  <div className="container">
-    <div className="color-item color-logo">
-      <p>--khao-sys-color-logo</p>
-    </div>
-  </div>
-</div>
-
 ## Dynamic Brand Colors
 
 <div className="sb-container">
@@ -64,13 +54,16 @@ The color palette applies the [Material Design Color System](https://m3.material
 
  </div>
 
-## Surface and Outline
-
+## Background, Surface and Outline
 
 <div className="sb-container">
     <div className='container'>
 
-
+     <div className="color-item color-background">
+      <p>
+        --khao-sys-color-background
+      </p>
+    </div>
 
 
     <div className="color-item color-surface">
@@ -83,6 +76,10 @@ The color palette applies the [Material Design Color System](https://m3.material
       <p>
         --khao-sys-color-outline
       </p>
+    </div>
+
+    <div className="color-item color-outline-bright">
+      <p>--khao-sys-color-outline-bright</p>
     </div>
 
   </div>
@@ -199,7 +196,7 @@ The color palette applies the [Material Design Color System](https://m3.material
     margin-top: 24px;
     margin-bottom: 48px;
     padding: 1rem;
-    background-color: var(--khao-sys-color-surface);
+    background-color: var(--khao-sys-color-background);
   }
 
   .container {
@@ -221,15 +218,6 @@ The color palette applies the [Material Design Color System](https://m3.material
     width: 300px;
     height: 80px;
     border-radius: var(--khao-sys-shape-corner-small);
-  }
-
-  .color-logo {
-      background-color: var(--khao-sys-color-logo);
-
-      p {
-        color: var(--khao-sys-color-on-logo) !important;
-        font-weight: bold;
-      }
   }
 
   .color-primary {
@@ -281,10 +269,19 @@ The color palette applies the [Material Design Color System](https://m3.material
       }
   }
 
-  .color-surface {
-      background-color: var(--khao-sys-color-surface);
+
+  .color-background {
+      background-color: var(--khao-sys-color-background);
       border: 1px solid black;
   
+      p {
+        color: var(--khao-sys-color-on-background) !important;
+      }
+  }
+
+  .color-surface {
+      background-color: var(--khao-sys-color-surface);
+      
       p {
         color: var(--khao-sys-color-on-surface) !important;
       }
@@ -292,8 +289,7 @@ The color palette applies the [Material Design Color System](https://m3.material
 
   .color-surface-container-lowest {
       background-color: var(--khao-sys-color-surface-container-lowest);
-      border: 1px solid black;
-      
+    
       p {
         color: var(--khao-sys-color-on-surface-container-lowest) !important;
       }
@@ -336,6 +332,14 @@ The color palette applies the [Material Design Color System](https://m3.material
 
       p {
         color: var(--khao-sys-color-on-outline) !important;
+      }
+  }
+
+  .color-outline-bright {
+      background-color: var(--khao-sys-color-outline-bright);
+
+      p {
+        color: var(--khao-sys-color-on-outline-bright) !important;
       }
   }
 

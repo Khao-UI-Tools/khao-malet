@@ -4,7 +4,6 @@
 
 :root {
   /* Brand Colors */
-  --khao-ref-palette-rice-paddy: #9acd32;
   --khao-ref-palette-bamboo: #c0a74e;
   --khao-ref-palette-jungle: #7ca428;
   --khao-ref-palette-flower: #ff9900;
@@ -12,7 +11,7 @@
 
   /* Additional */
   --khao-ref-palette-red: #aa1d2d;
-  --khao-ref-palette-dark-green: #367300;
+  --khao-ref-palette-green: #367300;
   --khao-ref-palette-white: #ffffff;
   --khao-ref-palette-black: #000000;
 
