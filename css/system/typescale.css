@@ -35,8 +35,14 @@
   --khao-sys-typescale-label-large-size: var(--khao-sys-size-typography-9);
   --khao-sys-typescale-label-large-weight: 400;
   --khao-sys-typescale-label-large-weight-prominent: 700;
+  
   --khao-sys-typescale-label-medium-line-height: var(--khao-sys-size-regular-4);
   --khao-sys-typescale-label-medium-size: var(--khao-sys-size-typography-6);
   --khao-sys-typescale-label-medium-weight: 400;
   --khao-sys-typescale-label-medium-weight-prominent: 700;
+
+  --khao-sys-typescale-label-small-line-height: var(--khao-sys-size-regular-3);
+  --khao-sys-typescale-label-small-size: var(--khao-sys-size-typography-5);
+  --khao-sys-typescale-label-small-weight: 400;
+  --khao-sys-typescale-label-small-weight-prominent: 700;
 }
